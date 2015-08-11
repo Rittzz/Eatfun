@@ -1,0 +1,71 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"/>
+
+        <TextView
+            android:id="@+id/tv_last_sync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Last sync"/>
+
+        <CheckBox
+            android:id="@+id/cb_eatfun_ordering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EatFun auto ordering"/>
+
+        <CheckBox
+            android:id="@+id/cb_shuffle_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shuffle Items"/>
+
+        <TextView
+            android:id="@+id/tv_preferred_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="None"/>
+
+        <Button
+            android:id="@+id/btn_set_preferred_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Set Preferred Items"/>
+
+        <Button
+            android:id="@+id/btn_order_now"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Now"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login to Eatclub"/>
+
+    </LinearLayout>
+
+</ScrollView>
