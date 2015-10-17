@@ -1,2 +1,2 @@
 # Eatfun
-An android app that automatically orders food for your from eatclub.
+An android app that automatically orders food for you from eatclub.
