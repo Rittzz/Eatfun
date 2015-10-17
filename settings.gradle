@@ -1,1 +1,1 @@
-include ':app', ':eatclub_api'
+include ':app', ':api'
